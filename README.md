@@ -25,15 +25,18 @@ pip install opencv-python
 **If too many false circles appear:**
 - Increase the `param2` value
 - Adjust the `minRadius` and `maxRadius` values
+
 # File Structure
+```
 project_folder/
 │
 ├── pupil_detection.py
 ├── your_video.mp4
 ├── haarcascade_frontalface_default.xml
 └── haarcascade_eye.xml
-Note: The XML files are automatically included with OpenCV installation and accessed via cv2.data.haarcascades. You don't need to download them separately.
+```
+**Note**: The XML files are automatically included with OpenCV installation and accessed via `cv2.data.haarcascades`. You don't need to download them separately.
 # Notes
 - Works best with clear, well-lit videos
 - Faces should be facing the camera
-- Video resolution affects detection accuracy
+- Video resolution affects detection accuracyt.xml
